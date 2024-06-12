@@ -1,0 +1,21 @@
+{
+    "edu_rec": {
+        "dpath": "../datas/dataset_edu-rec",
+        "folds": 5,
+        "num_geek": 61567,
+        "num_job": 20828,
+        "num_skill": 384,
+        "num_inters": 2200731,
+        "num_level": 3,
+        "leaf_dim": 256,
+        "train_data": "edu_rec_train.csv",
+        "valid_data": "edu_rec_valid.csv",
+        "test_data": "edu_rec_test.csv",
+        "train_rec_data": "edu_rec_train_pairwise_len10.csv",
+        "valid_rec_data": "edu_rec_valid_rec.csv",
+        "test_rec_data": "edu_rec_test_rec.csv",
+        "job_skill_dict": "v1_dict_ques_skill.json",
+        "geek_vec_dict": "v1_dict_user_new2vec.pkl",
+        "job_vec_dict": "v1_dict_ques_new2vec.pkl"
+    }
+}
